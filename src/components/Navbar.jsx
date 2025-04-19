@@ -7,8 +7,7 @@ export default function Navbar() {
         <h1 className="text-xl font-bold text-pink-700">Para Julieta 💖</h1>
         <div className="space-x-4">
           <Link to="/" className="text-pink-800 hover:text-pink-600 transition">Inicio</Link>
-          <Link to="/galeria" className="text-pink-800 hover:text-pink-600 transition">Galería</Link>
-          <Link to="/carta" className="text-pink-800 hover:text-pink-600 transition">Cartita</Link>
+          <Link to="/razones" className="text-pink-800 hover:text-pink-600 transition">Razones</Link>
         </div>
       </div>
     </nav>

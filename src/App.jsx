@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
+import Razones from "./pages/Razones";
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* Próximamente: <Route path="/galeria" element={<Gallery />} /> */}
+        <Route path="/razones" element={<Razones />} />
       </Routes>
     </Router>
   );
